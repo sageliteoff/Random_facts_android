@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Random Facts</string>
+    <string name="view_history">View history</string>
+    <string name="intro_description">Explore some random facts that will blow your brains out</string>
+    <string name="get_random_fact">Get random fact</string>
+    <string name="favourite">favourite</string>
+    <string name="share">share</string>
+    <string name="bookmark">bookmark</string>
+</resources>
