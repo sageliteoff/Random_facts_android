@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexScreen"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <com.example.randomfacts.components.Header
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <ImageView
+            android:contentDescription="intro image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_intro_icon"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ready_set_go"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:maxLines="2"
+            android:lines="2"
+            android:text="@string/intro_description"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="24dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/btn_get_fact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_random_fact"
+
+          />
+
+
+</LinearLayout>

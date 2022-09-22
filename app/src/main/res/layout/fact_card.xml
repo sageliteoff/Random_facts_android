@@ -11,7 +11,7 @@
     app:cardCornerRadius="0dp"
     app:strokeWidth="0dp"
 
-    tools:showIn="@layout/history">
+    tools:showIn="@layout/activity_history">
 
     <LinearLayout
         android:layout_width="match_parent"

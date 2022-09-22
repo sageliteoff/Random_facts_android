@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RandomFacts">
         <activity
-            android:name=".HomeActivity"
+            android:name=".IndexScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".home.HomeScreen">
+        </activity>
+
+        <activity android:name=".History.HistoryScreen" />
+
     </application>
 
 </manifest>

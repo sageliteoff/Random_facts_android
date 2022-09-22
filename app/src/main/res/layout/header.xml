@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
+    tools:showIn="@layout/activity_home"
     style="@style/grayBackground"
     android:id="@+id/header"
     >
@@ -16,13 +17,14 @@
     />
 
     <Button
+        android:id="@+id/btn_go_to_history"
         style="@style/secondaryButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="30dp"
         android:text="@string/view_history"
         app:icon="@drawable/ic_history_icon"
-        tools:ignore="TextContrastCheck" />
+       />
 
 
 </LinearLayout>
