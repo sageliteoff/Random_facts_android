@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.example.randomfacts.History.HistoryScreen;
+import com.example.randomfacts.history.HistoryScreen;
 import com.example.randomfacts.R;
 
 public class Header extends LinearLayout {

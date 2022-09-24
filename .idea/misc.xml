@@ -10,7 +10,7 @@
         <entry key="app/src/main/res/drawable/ic_history_icon.xml" value="0.11851851851851852" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.11145833333333334" />
         <entry key="app/src/main/res/layout/activity_history.xml" value="0.14895833333333333" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_index.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18704156479217604" />
         <entry key="app/src/main/res/layout/fact_card.xml" value="0.28229166666666666" />

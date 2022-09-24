@@ -20,12 +20,7 @@ public class IndexScreen extends AppCompatActivity {
 
         getFactButton = findViewById(R.id.btn_get_fact);
 
-        getFactButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                gotoHome(view);
-            }
-        });
+        getFactButton.setOnClickListener(this::gotoHome);
     }
 
 

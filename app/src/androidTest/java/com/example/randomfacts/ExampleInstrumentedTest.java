@@ -10,6 +10,12 @@ import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 
+import com.example.randomfacts.core.data.DataSource;
+import com.example.randomfacts.core.domain.FactEntity;
+import com.example.randomfacts.core.utils.OkClient;
+
+import java.util.HashMap;
+
 /**
  * Instrumented test, which will execute on an Android device.
  *
@@ -23,4 +29,13 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.example.randomfacts", appContext.getPackageName());
     }
+
+    @Test
+    public void getFact() throws Exception {
+        DataSource remote = new DataSource(new OkClient());
+        FactEntity res = remote.fetchFact(new HashMap());
+
+    }
+
+
 }

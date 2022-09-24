@@ -1,7 +1,6 @@
-package com.example.randomfacts.History;
+package com.example.randomfacts.history;
 
 import android.os.Bundle;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 

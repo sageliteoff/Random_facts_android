@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.randomfacts">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -8,7 +12,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        tools:replace="android:allowBackup,icon,theme,label"
         android:theme="@style/Theme.RandomFacts">
+
+
+
         <activity
             android:name=".IndexScreen"
             android:exported="true">
@@ -19,10 +27,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".home.HomeScreen">
-        </activity>
+        <activity android:name=".home.HomeScreen"   android:exported="true"/>
 
-        <activity android:name=".History.HistoryScreen" />
+
+        <activity android:name=".history.HistoryScreen"  android:exported="true" />
 
     </application>
 
